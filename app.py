@@ -15,11 +15,11 @@ def givec():
 
 @app.route('/C++')
 def givecpp():
-    return render_template('hellocpp.cpp')
+    return render_template('hellocpp.htm')
 
 @app.route('/Python')
 def givepy():
-    return render_template('hellopy.py')
+    return render_template('hellopy.htm')
 
 
 if __name__ == '__main__':

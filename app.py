@@ -21,6 +21,10 @@ def givecpp():
 def givepy():
     return render_template('hellopy.htm')
 
+@app.route('/Java')
+def givejava():
+    return render_template('hellojava.htm')
+
 
 if __name__ == '__main__':
     app.run(debug=True)

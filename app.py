@@ -25,6 +25,9 @@ def givepy():
 def givejava():
     return render_template('hellojava.htm')
 
+@app.route('/Javascript')
+def givejs():
+    return render_template('hellojs.htm')
 
 if __name__ == '__main__':
     app.run(debug=True)

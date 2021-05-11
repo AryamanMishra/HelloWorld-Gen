@@ -1,3 +1,6 @@
+## Documentation pending
+
+
 from flask import Flask, render_template
 from flask.wrappers import Request 
 
@@ -7,7 +10,7 @@ app = Flask(__name__,template_folder='templates')
     
 @app.route('/')
 def func():
-    return render_template('index.htm')
+    return render_template('index.htm') 
 
 @app.route('/C')
 def givec():
